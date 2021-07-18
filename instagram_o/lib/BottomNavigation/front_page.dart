@@ -215,7 +215,7 @@ class _FrontPageState extends State<FrontPage> {
                       Container(
                         width: 50,
                         height: 75,
-                        margin: EdgeInsets.all(10),
+                        // margin: EdgeInsets.all(10),
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           image: DecorationImage(
@@ -232,7 +232,7 @@ class _FrontPageState extends State<FrontPage> {
                         ],
                       ),
                       Container(
-                        padding: EdgeInsets.only(left: 180),
+                        padding: EdgeInsets.only(left: 150),
                           child:
                           Icon(Icons.more_horiz,size:35)
                       ),
@@ -332,10 +332,10 @@ class _FrontPageState extends State<FrontPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                      Text('Peter ',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),),
-                      Text('Being stuck in life can make us feel',style: TextStyle(fontSize: 18),)
+                      Text('Peter ',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),textAlign: TextAlign.left,),
+                      Text('Being stuck in life can make us ',style: TextStyle(fontSize: 18),textAlign: TextAlign.left,)
                     ],),
-                    Text('angry,sad,depressed.Even if the pace is very slow,movement brings happiness and needed satisfaction.',style: TextStyle(fontSize: 18),),
+                    Text('feel angry,sad,depressed.Even if the pace is very slow,movement brings happiness and needed satisfaction.',style: TextStyle(fontSize: 18),textAlign: TextAlign.left,),
                   ],),
                 ),
               ]

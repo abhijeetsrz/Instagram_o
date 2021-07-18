@@ -90,9 +90,10 @@ class _ProfilePageState extends State<ProfilePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                      padding:EdgeInsets.only(right: 327),
+                      // padding:EdgeInsets.only(right: 200),
+                      margin:EdgeInsets.only(right: 280),
                       child:
-                        Text('Jacob West',style: TextStyle(fontSize: 15),)),
+                        Text('Jacob West',style: TextStyle(fontSize: 15),textAlign: TextAlign.start,)),
                   Container(
                     padding:EdgeInsets.only(left: 3),
                     child:
@@ -108,10 +109,13 @@ class _ProfilePageState extends State<ProfilePage> {
                     Text('Everything is Designed',style: TextStyle(fontSize: 15)),
                   ),
                   SizedBox(height: 15),
-                  RaisedButton(onPressed: (){},
-                    padding: EdgeInsets.fromLTRB(155, 0, 155, 0),
-                    child: Text('Edit Profile',style: TextStyle(fontSize: 15),),
-                    color: Colors.white,
+                  SizedBox(
+                    width: double.infinity,
+                    child: RaisedButton(onPressed: (){},
+                      // padding: EdgeInsets.fromLTRB(155, 0, 155, 0),
+                      child: Text('Edit Profile',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,),
+                      color: Colors.white,
+                    ),
                   ),
                   SizedBox(height: 20),
                   SizedBox(

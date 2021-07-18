@@ -59,8 +59,8 @@ class LoginPage extends StatelessWidget {
           SizedBox(height: 20),
 
           Container(
-            padding: EdgeInsets.only(left: 290),
-            child: Text('Forgot Password?',style: TextStyle(color: Colors.blue),),
+            // padding: EdgeInsets.only(left: 290),
+            child: Text('Forgot Password?',style: TextStyle(color: Colors.blue),textAlign: TextAlign.right,),
           ),
             SizedBox(height: 40),
           Card(
@@ -78,18 +78,21 @@ class LoginPage extends StatelessWidget {
           Text('OR', textAlign: TextAlign.center,),
             SizedBox(height: 30),
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 100),
-            child: Row(children: [
+            // padding: EdgeInsets.symmetric(horizontal: 100),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
               Text("Don't have an account?",style: TextStyle(fontSize: 15),),
               Text("Sign up.",style: TextStyle(fontSize: 15,color: Colors.blue),),
             ],),
           ),
           SizedBox(height: 70),
           Divider(thickness: 1,),
-          SizedBox(height: 20,),
+          SizedBox(height: 10,),
           Container(
             child:Text('Instagram to Facebook',textAlign: TextAlign.center,),
           ),
+            SizedBox(height: 10,)
         ],),
       ) ,
     );

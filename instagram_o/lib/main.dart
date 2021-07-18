@@ -43,10 +43,10 @@ class Home extends StatelessWidget {
                   context,MaterialPageRoute(builder: (context) => LoginPage()),
                 );
               },
-               child: Text('Log in',style: TextStyle(fontSize: 20)),
+               child: Text('Log in',style: TextStyle(fontSize: 20),textAlign: TextAlign.center,),
                color: Colors.blue,
                textColor: Colors.white,
-               padding: EdgeInsets.fromLTRB(150, 20, 170, 20),
+               padding: EdgeInsets.fromLTRB(140, 20, 150, 20),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0),
                 ),
@@ -63,10 +63,10 @@ class Home extends StatelessWidget {
                   context,MaterialPageRoute(builder: (context) => SignPage()),
                 );
               },
-                child: Text('Sign in',style: TextStyle(fontSize: 20),),
+                child: Text('Sign in',style: TextStyle(fontSize: 20),textAlign: TextAlign.center),
                 color: Colors.white,
                 textColor: Colors.blue,
-                padding: EdgeInsets.fromLTRB(150, 20, 170, 20),
+                padding: EdgeInsets.fromLTRB(140, 20, 150, 20),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0),
                     side: BorderSide(

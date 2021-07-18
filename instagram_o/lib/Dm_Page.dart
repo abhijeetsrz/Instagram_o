@@ -91,7 +91,7 @@ class DmPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                 Text('Have a nice day,bro!'),
-                Text('                      .now'),
+                Text('   .now'),
               ],),
               trailing: Icon(Icons.camera_alt,size: 30.0,color: Colors.black,),
 
@@ -114,7 +114,7 @@ class DmPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                 Text('Hey I am here,bro!'),
-                Text('                         .now'),
+                Text('   .now'),
               ],),
               trailing: Icon(Icons.camera_alt,size: 30.0,color: Colors.black,),
 
@@ -137,7 +137,7 @@ class DmPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                 Text('Have a nice day,bro!'),
-                Text('                      .now'),
+                Text('   .now'),
               ],),
               trailing: Icon(Icons.camera_alt,size: 30.0,color: Colors.black,),
 
@@ -160,7 +160,7 @@ class DmPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                 Text('chill hai bro!'),
-                Text('                                    .now'),
+                Text('   .now'),
               ],),
               trailing: Icon(Icons.camera_alt,size: 30.0,color: Colors.black,),
 
@@ -183,7 +183,7 @@ class DmPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                 Text('I am very much old!'),
-                Text('                      .now'),
+                Text('   .now'),
               ],),
               trailing: Icon(Icons.camera_alt,size: 30.0,color: Colors.black,),
 
@@ -206,7 +206,7 @@ class DmPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                 Text('I am happy'),
-                Text('                                     .now'),
+                Text('   .now'),
               ],),
               trailing: Icon(Icons.camera_alt,size: 30.0,color: Colors.black,),
 
@@ -229,7 +229,7 @@ class DmPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                 Text('Have a wonderful day,bro!'),
-                Text('            .now'),
+                Text('  .4h'),
               ],),
               trailing: Icon(Icons.camera_alt,size: 30.0,color: Colors.black,),
 
@@ -251,8 +251,8 @@ class DmPage extends StatelessWidget {
               subtitle: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                Text('Have a great journey ahead!'),
-                Text('         .now'),
+                Text('Have a great journey !'),
+                Text('  .1h'),
               ],),
               trailing: Icon(Icons.camera_alt,size: 30.0,color: Colors.black,),
 

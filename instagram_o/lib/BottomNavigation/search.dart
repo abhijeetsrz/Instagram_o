@@ -62,10 +62,10 @@ class _SearchPageState extends State<SearchPage> {
         children: [
           Container(
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Container(
-                  width: 375,
+                  width: 310,
                   child: Card(
                     child: TextField(
                       cursorHeight: 20,
